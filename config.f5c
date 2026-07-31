@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROFILE VERSION="2.0">
+<ALLOW_HTTP_CONNECTIONS>NO</ALLOW_HTTP_CONNECTIONS>
+<IGNORE_SSL_SERVER_CERT_ERRORS>NO</IGNORE_SSL_SERVER_CERT_ERRORS>
+<SERVERS TRUSTED="YES">
+<SITEM>
+  <ADDRESS>vpn-sd.ras.qualcomm.com</ADDRESS>
+  <ALIAS>US West</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-iad.ras.qualcomm.com</ADDRESS>
+  <ALIAS>US East</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-ams.ras.qualcomm.com</ADDRESS>
+  <ALIAS>Europe</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-hfa.ras.qualcomm.com</ADDRESS>
+  <ALIAS>Israel</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-blr.ras.qualcomm.com</ADDRESS>
+  <ALIAS>India-Bangalore</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-hyd.ras.qualcomm.com</ADDRESS>
+  <ALIAS>India-Hyderabad</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-tpe.ras.qualcomm.com</ADDRESS>
+  <ALIAS>Asia-Pac</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-pvg.ras.qualcomm.com</ADDRESS>
+  <ALIAS>China</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-sdtest.ras.qualcomm.com</ADDRESS>
+  <ALIAS>US West Passwordless</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-iad-new.ras.qualcomm.com</ADDRESS>
+  <ALIAS>US East Passwordless</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-ams-new.ras.qualcomm.com</ADDRESS>
+  <ALIAS>Europe Passwordless</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-hfa-new.ras.qualcomm.com</ADDRESS>
+  <ALIAS>Israel Passwordless</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-hyd-new.ras.qualcomm.com</ADDRESS>
+  <ALIAS>India-Hyderabad Passwordless</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-blr-new.ras.qualcomm.com</ADDRESS>
+  <ALIAS>India-Bangalore Passwordless</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-pvg-new.ras.qualcomm.com</ADDRESS>
+  <ALIAS>China Passwordless</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-tpe-new.ras.qualcomm.com</ADDRESS>
+  <ALIAS>APAC Passwordless</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-sdtest.ras.qualcomm.com/fulltunnel</ADDRESS>
+  <ALIAS>US West Passwordless Full Tunnel</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-iad-new.ras.qualcomm.com/fulltunnel</ADDRESS>
+  <ALIAS>US East Passwordless Full Tunnel</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-ams-new.ras.qualcomm.com/fulltunnel</ADDRESS>
+  <ALIAS>Europe Passwordless Full Tunnel</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-hfa-new.ras.qualcomm.com/fulltunnel</ADDRESS>
+  <ALIAS>Israel Passwordless Full Tunnel</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-blr-new.ras.qualcomm.com/fulltunnel</ADDRESS>
+  <ALIAS>India-Bangalore Passwordless Full Tunnel</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-hyd-new.ras.qualcomm.com/fulltunnel</ADDRESS>
+  <ALIAS>India-Hyderabad Passwordless Full Tunnel</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-tpe-new.ras.qualcomm.com/fulltunnel</ADDRESS>
+  <ALIAS>Asia-Pac Passwordless Full Tunnel</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+<SITEM>
+  <ADDRESS>vpn-pvg-new.ras.qualcomm.com/fulltunnel</ADDRESS>
+  <ALIAS>China Passwordless Full Tunnel</ALIAS>
+  <SAVEPASSWORDS>YES</SAVEPASSWORDS>
+</SITEM>
+</SERVERS>
+<SESSION LIMITED="YES">
+  <STAYCONNECTED>YES</STAYCONNECTED>
+  <RECONNECTIONS>5</RECONNECTIONS>
+  <SAVEONEXIT>YES</SAVEONEXIT>
+  <SAVEPASSWORDS>NO</SAVEPASSWORDS>
+  <REUSEWINLOGONCREDS>NO</REUSEWINLOGONCREDS>
+  <REUSEWINLOGONSESSION>NO</REUSEWINLOGONSESSION>
+  <PASSWORD_POLICY>
+    <MODE>DISK</MODE>
+    <TIMEOUT>240</TIMEOUT>
+  </PASSWORD_POLICY>
+  <UPDATE>
+    <MODE>NO</MODE>
+  </UPDATE>
+</SESSION>
+<LOCATIONS>
+  <CORPORATE>
+    <DNSSUFFIX>qualcomm.com</DNSSUFFIX>
+    <DNSSUFFIX>na.qualcomm.com</DNSSUFFIX>
+  </CORPORATE>
+</LOCATIONS>
+<UI>
+  <CUSTOMIZE>
+    <LANGUAGE>
+    </LANGUAGE>
+  </CUSTOMIZE>
+</UI>
+</PROFILE>
